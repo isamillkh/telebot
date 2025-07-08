@@ -506,7 +506,7 @@ def main() -> None:
     
     init_db()
     
-    application = Application.builder().token("5945766479:AAEKsGyyi-sz5TRvsKsP87R3lAw77hBMJ0w").build()
+    application = Application.builder().token("").build()
     
     # إضافة الأوامر
     application.add_handler(CommandHandler("broadcast", broadcast_command))
